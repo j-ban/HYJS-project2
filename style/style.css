@@ -1,0 +1,39 @@
+body {
+      margin:0;
+      font-family: 'Poor Story', cursive;
+      background:#3498db;
+      -webkit-transition:all 0.2s;
+    }
+    .timer {
+      text-align: center;
+    }
+
+    .timeDisplay {
+      font-size: 50px;
+      color:white;
+      text-shadow:5px 5px 0 rgba(0,0,0,0.05);
+      -webkit-transition:all 0.3s;
+    }
+    .addMinutes {
+    	background: rgba(255,255,255,0.2);
+		margin: 100px auto 0;
+		padding: 50px;
+		width: 50%;
+		text-align: center;
+	}
+
+	button {
+		font-size: 20px;
+		border: none;
+		background: white;
+		padding: 10px 20px;
+		text-align: center;
+		transition: all 0.3s;
+	}
+	button:hover {
+		background: #ccc;
+	}
+	button span {
+		text-transform: uppercase;
+		letter-spacing: 2.5px;
+	}
